@@ -1,1 +1,1 @@
-# Ill-Pill---HackUMass-2018
+# ILL-Pill---HackUMass-2018
