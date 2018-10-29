@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomeScreen"
+    tools:showIn="@layout/activity_home_screen">
+    
+    
+    <ImageView
+        android:id="@+id/ivbackground1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/backgroundimage"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageView
+        android:id="@+id/ivbackground2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/backgroundimage"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:background="@drawable/background_transparent"
+        android:layout_margin="20dp"
+        >
+
+
+        <!--<Button-->
+            <!--android:id="@+id/btUpload"-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Upload Photo"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textColor="#fff"-->
+            <!--android:background="@color/black_alpha_40"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_margin="5dp"-->
+            <!--/>-->
+
+        <Button
+            android:id="@+id/btTakeaPicture"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="Take a Picture"
+            android:background="@color/black_alpha_40"
+            android:textStyle="bold"
+            android:textColor="#fff"
+
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
